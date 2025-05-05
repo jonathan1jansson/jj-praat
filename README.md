@@ -2,7 +2,7 @@
 
 This is a collection of a few [Praat](http://praat.org) scripts I originally wrote and used for my bachelor's thesis in phonetics. As such, they were written with that specific use case in mind, although I've tried to make them useful (or at least use*able*) in a wider context. While I believe these to be safe and well grounded methods, please double-check all results yourself before using them. Below are short descriptions for each scrips. More can be learned by reading through the comments in each of the script files -- but if you still don't know what they're doing (or why), please let me know.
 
-##### SweDia 2000 scripts
+## SweDia 2000 scripts
 
 The following scripts were written for correcting, extracting and conducting measurements on the word accents of Swedish in recordings from the [SweDia 2000 database](https://swedia.ling.gu.se/) (see Eriksson [2004](https://gupea.ub.gu.se/bitstream/handle/2077/23896/gupea_2077_23896_1.pdf?sequence=1) for a summary). 
 
