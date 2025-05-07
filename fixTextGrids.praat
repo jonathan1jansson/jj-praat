@@ -1,3 +1,8 @@
+#
+# Praat script for correcting SweDia prosody file TextGrids
+# Author: Jonathan Jansson <jonathan1jansson@gmail.com>
+#
+
 form Setup
 	comment: "Automatic correction of SweDia 2000 prosody annotations."
 	infile: "Sound input directory", ""
