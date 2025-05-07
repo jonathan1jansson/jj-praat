@@ -1,3 +1,8 @@
+#
+# Praat script for batch extracting parts of SweDia prosody files
+# Author: Jonathan Jansson <jonathan1jansson@gmail.com>
+#
+
 form SweDia batch-extract
     comment: "Extracts portions from sounds and textgrid based on word accent."
     infile: "TextGrid input directory", ""
@@ -14,17 +19,16 @@ outDirectory$ = textGrid_output_directory$
 
 # if user forgot to finish directories with slashes:
 if not right$ (tgDirectory$, 1) == "\"
-	tgDirectory$ = tgDirectory$ + "\"
+    tgDirectory$ = tgDirectory$ + "\"
 endif
 
 if not right$ (soundDirectory$, 1) == "\"
-	soundDirectory$ = soundDirectory$ + "\"
+    soundDirectory$ = soundDirectory$ + "\"
 endif
 
 if not right$ (outDirectory$, 1) == "\"
-	outDirectory$ = outDirectory$ + "\"
+    outDirectory$ = outDirectory$ + "\"
 endif
-
 
 inDirTG$ = tgDirectory$ + "*.TextGrid"
 tgList = Create Strings as file list: "tgList", inDirTG$
@@ -98,7 +102,6 @@ for i to numGrids
                 nextLabel$ = Get label of interval: 1, k				
                 lowerNextLabel$ = replace_regex$ (nextLabel$, ".", "\L&", 0)
 				
-				
 				isOtherCurrency = 0
 				isOtherCurrency = index_regex (lowerNextLabel$, "(pund$)|(d-mark$)|(mark$)")
 
@@ -107,7 +110,6 @@ for i to numGrids
 					goto \%{FOUNDCURRENCY}
 				endif
 
-                
                 isCurrency = 0
                 isCurrency = index_regex (lowerNextLabel$, "(kronor$)|(krona$)|(dollar$)")
 				
