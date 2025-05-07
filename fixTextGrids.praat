@@ -4,11 +4,11 @@
 #
 
 form Setup
-	comment: "Automatic correction of SweDia 2000 prosody annotations."
+    comment: "Automatic correction of SweDia 2000 prosody annotations."
 	infile: "Sound input directory", ""
 	infile: "TextGrid input directory", ""
 	outfile: "TextGrid output directory", ""
-    comment: "Script will identify the pattern 'A, silence, B'."
+    comment: "Script will identify the pattern 'A, silence, B'."A
     sentence: "Regex A", "(en)$|(fem)$|(tio)$|(hundra)$|(tjugo)$|(femtio)$"
 	positive: "Minimum silence duration (s)", "0.05"
     sentence: "Regex B", "(krona)$|(kronor)$|(dollar)$|(pund)$|(d-mark)$|(mark)$"
