@@ -1,3 +1,8 @@
+#
+# Praat script for measuring word accent falls on pitch tier files in a directory
+# Author: Jonathan Jansson <jonathan1jansson@gmail.com>
+#
+
 form Measuring word accent fall in F0 stylizations
 	infile: "PitchTier input directory", ""
 	infile: "Syllable segmentation input directory", ""
