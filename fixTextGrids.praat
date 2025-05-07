@@ -3,8 +3,7 @@
 # Author: Jonathan Jansson <jonathan1jansson@gmail.com>
 #
 
-form Setup
-    comment: "Automatic correction of SweDia 2000 prosody annotations."
+form Automatic correction of SweDia 2000 prosody annotations
 	infile: "Sound input directory", ""
 	infile: "TextGrid input directory", ""
 	outfile: "TextGrid output directory", ""
