@@ -1,6 +1,6 @@
 # Jonathan Jansson's Praat Scripts
 
-This is a collection of a few [Praat](http://praat.org) scripts I originally wrote and used for my bachelor's thesis in phonetics. As such, they were written with that specific use case in mind, although I've tried to make them useful (or at least use*able*) in a wider context. While I believe these to be safe and well grounded methods, please double-check all results yourself before using them. Below are short descriptions for each scrips. More can be learned by reading through the comments in each of the script files -- but if you still don't know what they're doing (or why), please let me know.
+This is a collection of a few [Praat](http://praat.org) scripts I originally wrote and used for my bachelor's thesis in phonetics. As such, they were written with that specific use case in mind, although I've tried to make them useful (or at least use*able*) for broader applications. While I believe these to be safe and well grounded methods, please double-check all results yourself before using them. Below are short descriptions for each scrips, and more can hopfully be learned by reading through the comments in each of the script files.
 
 ## SweDia 2000 scripts
 
